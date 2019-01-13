@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  padding: 0.5rem 0;
+  .media {
+    flex: 0 0 auto;
+    display: block;
+    img {
+      max-width: 1.5em;
+      margin-right: 0.5rem;
+    }
+  }
+  .content {
+    display: block;
+    flex: 1 1 auto;
+    padding-right: 1rem;
+  }
+}

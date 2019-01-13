@@ -1,0 +1,12 @@
+@import 'theme/variables';
+
+.request-approvers {
+  .item {
+    padding: 1rem;
+  }
+}
+.approvers-list {
+  .item:last-child {
+    border-bottom: 1px solid $border-color;
+  }
+}

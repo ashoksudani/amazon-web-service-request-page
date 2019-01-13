@@ -1,0 +1,27 @@
+@import 'theme/variables';
+
+.content-table {
+  padding: 0.25rem 1rem;
+  border: 1px solid $border-color;
+  border-radius: 1rem;
+
+  > .row {
+    border-bottom: 1px solid $border-color;
+  }
+  > .row:last-child {
+    border-bottom: none;
+  }
+
+  label {
+    margin: 0;
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  [class*='col-'] {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}

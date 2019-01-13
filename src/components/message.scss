@@ -1,0 +1,35 @@
+@import 'theme/variables';
+@import 'theme/utility';
+
+.message {
+  color: $light;
+  margin-bottom: 0.5rem;
+  header {
+    @extend .d-inline;
+    @extend .pr-2;
+  }
+  .content {
+    margin: 0;
+  }
+}
+
+.message-warning {
+  header,
+  i {
+    color: $warning;
+  }
+}
+
+.message-error {
+  header,
+  i {
+    color: $danger;
+  }
+}
+
+.message-info {
+  header,
+  i {
+    color: $info;
+  }
+}

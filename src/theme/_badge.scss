@@ -1,0 +1,18 @@
+.badge {
+  color: $white;
+  background: $light;
+  padding: 0 0.5em;
+  text-align: center;
+  margin: 0;
+  font-size: $font-size-sm;
+}
+
+.fas.success {
+  color: $success;
+}
+.fas.default {
+  color: $white;
+}
+.far.light {
+  color: $light;
+}
